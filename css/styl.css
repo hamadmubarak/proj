@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(15, 129, 129);
+}
+
+
+
+
+
+
+#countdown{
+    color: rgb(25, 134, 134);
+    padding: 8px;
+}
+
+
+#loader{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.loadercon{
+display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000e0;
+}
+.list-group-item{
+    background: transparent;
+}
+
+img{
+    max-width: 100%;
+}
